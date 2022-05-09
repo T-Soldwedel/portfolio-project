@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles/styles.css" />
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <!-- -- Home -- -->
+
+      <section id="home">
+        <h1>Hi, I'm Thomas</h1>
+        <h3>Frontend-Developer / Backend-Developer</h3>
+
+        <div class="home-flex">
+          <img src="images/portrait.jpg" alt="portrait" />
+          <div>
+            <h3>Let me pour you some code</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias
+              odio fugit, quos mollitia, nulla, quasi soluta nobis delectus
+              omnis deleniti adipisci aperiam animi eveniet consequuntur
+              explicabo quas.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- -- About -- -->
+
+      <section id="about">
+        <h2>About me</h2>
+        <div class="about-flex">
+          <!-- <h3>Riddle Me This</h3> -->
+          <article>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit,
+              odit dolores quisquam deserunt quidem veritatis..!
+            </p>
+
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad hic
+              deleniti perferendis placeat, porro, culpa optio animi illo rerum
+              inventore veniam quae debitis corporis quia vero dolores tenetur
+              alias reiciendis?
+            </p>
+            <p>
+              Suscipit, odit dolores quisquam deserunt quidem veritatis. Lorem
+              ipsum dolor sit amet consectetur adipisicing elit.
+            </p>
+          </article>
+
+          <!-- <h3>My Web-Development Tools</h3> -->
+
+          <figure class="dev-tools">
+            <div>
+              <img src="images/HTML5-725x1024.png" alt="" />
+              <img src="images/NicePng_github-icon-png_1787413.png" alt="" />
+            </div>
+
+            <div>
+              <img src="images/javascript-logo-768x1079.png" alt="" />
+              <img src="images/figma-logo.png" alt="" />
+              <img src="images/bootstrap-logo-785x785.png" alt="" />
+            </div>
+
+            <div>
+              <img src="images/sasslogo.png" alt="" />
+              <img src="images/css-3-logo-768x768.png" alt="" />
+            </div>
+          </figure>
+        </div>
+      </section>
+
+      <!-- -- Projects -- -->
+      <section id="projects">
+        <h2>Projects</h2>
+
+        <div>
+          <a href="https://t-soldwedel.github.io/MM/" target="_blank"
+            ><img src="images/project-2.jpg" alt="project-image1"
+          /></a>
+          <article>
+            <h3>Website for XYZ</h3>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+              Accusamus modi et distinctio praesentium repellat quod alias saepe
+              ab. Dolorem ea veritatis commodi nemo earum sunt temporibus illum,
+              corrupti omnis maxime.
+            </p>
+          </article>
+        </div>
+
+        <div>
+          <a href="https://t-soldwedel.github.io/MM/" target="_blank"
+            ><img src="images/project-triomio.png" alt="project-image2"
+          /></a>
+          <article>
+            <h3>Website for XYZ</h3>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+              Accusamus modi et distinctio praesentium repellat quod alias saepe
+              ab. Dolorem ea veritatis commodi nemo earum sunt temporibus illum,
+              corrupti omnis maxime.
+            </p>
+          </article>
+        </div>
+
+        <div>
+          <a href="https://t-soldwedel.github.io/MM/" target="_blank"
+            ><img src="images/project-3.jpg" alt="project-image3"
+          /></a>
+          <article>
+            <h3>Website for XYZ</h3>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+              Accusamus modi et distinctio praesentium repellat quod alias saepe
+              ab. Dolorem ea veritatis commodi nemo earum sunt temporibus illum,
+              corrupti omnis maxime.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <!-- -- Contact -- -->
+      <section id="contact">
+        <h2>Get in Touch</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, cum.
+        </p>
+        <div class="form-flex">
+          <div class="form">
+            <form action="/my-handling-form-page" method="post">
+              <div class="form-name-mail">
+                <label for="name"></label>
+                <input
+                  class="focus"
+                  type="text"
+                  id="name"
+                  name="name"
+                  placeholder="Name"
+                />
+
+                <label for="email"></label>
+                <input
+                  class="focus"
+                  type="email"
+                  id="email"
+                  name="email"
+                  placeholder="E-Mail"
+                />
+              </div>
+
+              <label for="subject"></label>
+              <input
+                class="focus"
+                type="text"
+                id="subject"
+                name="subject"
+                placeholder="Subject"
+              />
+
+              <label for="message"></label>
+              <textarea
+                class="focus"
+                id="message"
+                name="message"
+                placeholder="Message"
+                style="height: 100px"
+              ></textarea>
+
+              <input class="btn" type="submit" value="Submit" />
+            </form>
+          </div>
+          <div class="map-background-img"></div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <ul class="icon-list">
+        <li class="icon">
+          <a href="https://www.github.com/T-Soldwedel"
+            ><i class="fab fa-github-square"></i
+          ></a>
+        </li>
+        <li class="icon">
+          <a href="https://www.linkedin.com/in/thomas-soldwedel-1b177596/"
+            ><i class="fab fa-linkedin"></i
+          ></a>
+        </li>
+      </ul>
+    </footer>
+  </body>
+</html>
