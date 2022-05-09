@@ -7,6 +7,9 @@
   --tertiary: rgb(124, 43, 43);
 
   --primary-font-color: rgb(237, 230, 219);
+
+  /* --secondary: rgb(53 110 107);
+  --tertiary: rgb(53 110 107); */
 }
 
 html {
@@ -196,6 +199,10 @@ section {
   box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
     rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
     rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+#projects img:hover {
+  outline: 5px solid white;
 }
 
 #projects p {
@@ -389,7 +396,7 @@ section {
   header ul {
     display: block;
     flex-direction: column;
-    width: 9rem;
+    width: 11rem;
     justify-content: space-around;
   }
 
